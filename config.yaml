@@ -1,0 +1,32 @@
+input:
+  picture_size:
+    input_w: 1440       #  输入onnx的宽
+    input_h: 1088       #  输入onnx的长
+
+  source_path:
+    singleImg_path: "../something/1439.jpg"                                                   #  图片路径
+    picture_dir: "/media/plusseven/KESU/img_DATA/radar2023/shangjiaoR2/"                      #  图片文件夹路径
+    picture_dir_start: 1200                                                                   #  从文件夹中的第n张图片开始 #
+    video_path: "/media/plusseven/KESU/img_DATA/radar2023/2023-08-04_16_38_22/shangjiao.mp4"  #  视频路径
+
+port:
+  USB0: "/dev/ttyUSB0"    #  串口路径1
+  USB1: "/dev/ttyUSB1"    #  串口路径2
+
+
+net:
+  trt_path: "../something/best_.trt"         #   engine文件路径
+  onnx_path: "../something/best_.onnx"       #   onnx文件路径
+  # 神经网络相关参数
+  obj_thres: 0.1        #
+  conf_thres: 0.3       #
+  nms_thres: 0.3        #
+  batch_size: 1         #
+  num_class: 13         #
+
+ImageSavePath:
+   disk02: "/media/pulssven/4E21-0000/2023radarData/"         # 保存图片文件夹路径1
+   ssdgaoyuan: "/media/plusseven/KESU/img_DATA/radar2023/"    # 保存图片文件夹路径2
+
+background:
+  mapPath: "../something/true_ground.png"                    # 小地图
