@@ -70,14 +70,14 @@
 
 ### 使用前准备
 
-* 环境配置完成后，需根据运算平台及环境修改src下CMakeLists.txt
+* **环境配置完成后，需根据运算平台及环境修改src下CMakeLists.txt**
   
   * 应根据设备显卡型号及其算力修改第20行 CUDA_GEN_CODE 例：RTX 3050 ： -gencode=arch=compute_86, code=sm_86 ; RTX 3070 : -gencode=arch=compute_86, code=sm_86 ; 
   * 具体设备显卡型号对应其算力可参照 [[学习笔记：[Nvidia显卡GPU算力] - 知乎 (zhihu.com)](https://zhuanlan.zhihu.com/p/353518340)] （此处为引用，侵删）
 
 * 
 
-* 修改 general/general.cpp 中提示处的参数
+* **修改 general/general.cpp 中提示处的参数**
   
   * 共有四种运行模式，分别为{*picture_dir*,*single_picture*,*video*,*camera_*},在general\general.cpp 中的`pictureSource = PictureSource:: ;`修改
   
@@ -85,15 +85,15 @@
   
   * 其他参数按照注释以及需求进行更改
 
-* 修改config.yaml中的路径及相关配置
+* **修改config.yaml中的路径及相关配置**
   
   * 本项目只提供了单张图片（*single_picture*）模式下的测试图片,对于其他模式（*picture_dir*, *video*）需自行准备其相对应的文件夹/文件，并修改config.yaml中所对应路径
   
   * 若模式为*picture_dir*，则该路径下的图片名称必须为n.jpg(其中n为自然数且连续)，picture_dir_start为开始图片的序号，若n=1200,则打开图片1200.jpg
 
-* 准备模型，现版本可用模型为yolov5 v6.0，所用部署代码来源于沈阳航空航天大学TUP机器人实验室提供的开源程序（再次感谢沈阳航空航天大学ing）
+* **准备模型，现版本可用模型为yolov5 v6.0，所用部署代码来源于沈阳航空航天大学TUP机器人实验室提供的开源程序**（再次感谢沈阳航空航天大学ing）
 
-* class ["RG","R1","R2",“R3”,"R4",“R5”,"BG","B1","B2",“B3”,"B4",“B5”,"car"] (与general/general.cpp 中 cls_to_string 相对应) 
+* **class ["RG","R1","R2",“R3”,"R4",“R5”,"BG","B1","B2",“B3”,"B4",“B5”,"car"] (与general/general.cpp 中 cls_to_string 相对应)**
 
 ### 运行
 
