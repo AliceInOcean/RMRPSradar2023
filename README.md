@@ -33,7 +33,7 @@
 * Intel Core i5-11400 CPU
 * GeForce RTX 3050 Laptop GPU [4GB]
 
-## 3.文件结构-SRC
+## 3.文件结构
 
 * RPSradar2023
   * Camera 相机
