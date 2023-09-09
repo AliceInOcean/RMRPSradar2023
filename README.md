@@ -41,7 +41,7 @@
   * generl    一些通用的类，以及绝大多数参数的初始化
   * Image    主要是用来显示推理结果
   * **Net**
-    * sample [ignore][from ]
+    * sample [ignore]
     * TRTInfer[ignore]
     * Net.cpp
     * Net.h
@@ -53,7 +53,7 @@
   * main.h
   * README.md
 
-> - sample [ignore]，TRTInfer[ignore]均来源于沈航yolov5开源代码 [tup-robomaster/TRTInferenceForYolo at yolov5 (github.com)](https://github.com/tup-robomaster/TRTInferenceForYolo/tree/yolov5)
+> - ***sample [ignore]，TRTInfer[ignore]均来源于沈航yolov5开源代码*** [tup-robomaster/TRTInferenceForYolo at yolov5 (github.com)](https://github.com/tup-robomaster/TRTInferenceForYolo/tree/yolov5)
 > 
 > Tips:在Net\TRTInfer\src\Inference.cpp中需手动添加以下代码(第133行左右)
 > 
