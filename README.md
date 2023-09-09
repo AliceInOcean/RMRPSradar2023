@@ -117,7 +117,7 @@ Tips: 在Place\src\place_post_cfg.cpp中修改相关3D参数
 
 
 
-<img title="" src="file:///E:/RPSradar2023/docs/效果图.png" alt="效果图.png" width="362" data-align="left">
+<img title="" src="docs\效果图.png" alt="效果图.png" width="362" data-align="left">
 
 4.按’q‘退出程序
 
@@ -133,7 +133,7 @@ Tips:右下角小地图可看见高亮（黄色小框是自己加的）
 
 （云台手视角不小心丢失了，现在只有工程视角QAQ能够看到其赛场效果）
 
-<img src="file:///E:/RPSradar2023/docs/赛场高亮.png" title="" alt="赛场高亮.png" width="269">
+<img src="docs\赛场高亮.png" title="" alt="赛场高亮.png" width="269">
 
 
 
