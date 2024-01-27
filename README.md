@@ -123,7 +123,7 @@ Tips: 在Place\src\place_post_cfg.cpp中修改相关3D参数
 
 > 若模式为*picture_dir*，按’z‘看查看上一张图片，按’x‘可查看下一张图片
 
-5.**best_.onnx 文件可能需要自己准备一个** 
+5.**由于之前的best_.onnx 文件并非单输出文件，需要各位自行准备一个onnx文件** 
 
 6.【不稳定功能未在此列出】
 
